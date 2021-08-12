@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>王蔓玉的简历</title>
+</head>
+
+<body>
+
+    <style id="style"></style>
+    <div id="HTML"></div>
+    <div id="div1Wrapper">
+        <div id="div1"></div>
+    </div>
+    <style>* {
+            margin: 0;
+            padding: 0;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        *::after {
+            box-sizing: border-box;
+        }
+        
+        *::before {
+            box-sizing: border-box;
+        }
+        
+        #HTML {
+            word-break: break all;
+        }
+        
+        #div1 {
+            position: fixed;
+            left: 50%;
+            translate: transformX(-50%);
+            top: 0
+        }
+        
+        #div1::before {
+            position: absolute;
+            content: "";
+            display: block;
+        }
+        
+        #div1::after {
+            position: absolute;
+            content: "";
+            display: block;
+        }
+        
+        @media(max-width:500px) {
+            #HTML {
+                height: 50vh;
+                overflow: auto;
+            }
+            #div1Wrapper {
+                height: 50vh;
+            }
+            #div1 {
+                position: relative;
+                left: 25%;
+                top: 0;
+            }
+        }</style>
+    <script src="/main.1f19ae8e.js"></script>
+</body>
+
+</html>
